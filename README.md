@@ -27,8 +27,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Проблемы
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Не работает drag and drop на мобилах, пробовал mouse event, не получается определить на какой элемент наводится пользователь (допустим беру монетку, тащу её вниз и отпускаю. Я не нашёл обработчик события, которая поможет в данной ситуации).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Есть фишка, если навести элемент на ячейку и после увести его в пустоту, то элемент вставится в ячейку. Я понимаю из-за чего это срабатывает, но пофиксить у меня так и не вышло. По другому определять, куда вставляется элемент у меня не получилось.
